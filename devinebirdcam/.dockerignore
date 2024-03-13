@@ -1,0 +1,39 @@
+# Ignore files and directories commonly excluded in Docker images
+
+# Ignore build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Ignore development files
+*.md
+*.txt
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Ignore version control files
+.git
+.gitignore
+.svn
+.hg
+
+# Ignore package manager files
+node_modules/
+vendor/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
