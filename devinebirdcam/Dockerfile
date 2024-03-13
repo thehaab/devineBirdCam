@@ -25,7 +25,7 @@ EXPOSE 80
 EXPOSE 1935
 
 # Start the NGINX server
-CMD service nginx start && npm run app.js
+CMD service nginx start && npm start
 
 # add volume for user login data
 VOLUME /app/data
